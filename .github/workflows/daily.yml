@@ -2,7 +2,7 @@ name: Daily Simon Digest
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # 06:00 UTC daily — catches all of previous UTC day
+    - cron: '0 5 * * *'  # 05:00 UTC = 06:00 MEZ / 07:00 MESZ
   workflow_dispatch:       # manual trigger for first run / debugging
 
 jobs:
