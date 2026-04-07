@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simon Willison – Tägliche Zusammenfassung</title>
+    <link>https://simonwillison.net/</link>
+    <description>Tägliche KI-Zusammenfassung von Simon Willisons Blog</description>
+    <language>de</language>
+    <atom:link href="" rel="self" type="application/rss+xml"/>
+  
+  <item>
+    <title>Simon Willison – 06. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-06</guid>
+    <pubDate>Mon, 06 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Google hat mit der „AI Edge Gallery&quot; eine offizielle App für iPhones veröffentlicht, mit der Nutzer die Gemma-4-Modelle (E2B und E4B) direkt lokal ausführen können. Die E2B-Variante ist nur 2,54 GB groß, lädt schnell und bietet praktische Features wie Bildanalyse und Audio-Transkription bis 30 Sekunden. Besonders interessant ist eine „Skills&quot;-Demo, die Tool-Calling mit acht interaktiven HTML-Widgets demonstriert (interaktive Karte, Rezeptsuche, Hash-Berechnung, Stimmungs-Tracker und mehr). Allerdings fehlen permanente Gesprächsprotokolle, und die Demo ist beim Hinzufügen von Folgefragen abgestürzt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat datasette-ports in zwei Versionen (0.1 und 0.2) veröffentlicht, ein Tool zum Finden und Auflisten aller laufenden Datasette-Instanzen und ihrer Ports. Version 0.2 erfordert nicht mehr die Installation von Datasette selbst und funktioniert über `uvx datasette-ports`. Das Tool löst ein persönliches Problem Simons – er betreibt oft dutzende verschiedene Datasette-Instanzen mit unterschiedlichen Datenbanken und Plugins gleichzeitig und verliert leicht den Überblick.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Die neue Version 0.3 von scan-for-secrets bietet eine `-r/--redact`-Option, die gefundene Secrets anzeigt, zur Bestätigung auffordert und sie dann durch „REDACTED&quot; ersetzt – unter Beachtung von Escape-Regeln. Zusätzlich gibt es eine neue Python-Funktion `redact_file()` zum programmgesteuerten Redaktieren. Das Tool hilft dabei, versehentliche Geheimnis-Leaks beim Teilen von Dateien zu vermeiden.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Kleine Hilfswerkzeuge&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat auch ein spezialisiertes Cleanup-Tool für „Claude Code Paste&quot; entwickelt, das mit Extra-Leerzeichen und Formatierungsproblemen beim Kopieren von Prompts aus dem Claude-Code-Terminal aufräumt – ein nischenhaftes, aber praktisches Werkzeug für seine spezifische Workflow.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (5 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything&quot;&gt;Google AI Edge Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything&quot;&gt;datasette-ports 0.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything&quot;&gt;scan-for-secrets 0.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything&quot;&gt;Cleanup Claude Code Paste&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything&quot;&gt;datasette-ports 0.1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  </channel>
+</rss>
