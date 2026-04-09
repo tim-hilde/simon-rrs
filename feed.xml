@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 08. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-08</guid>
+    <pubDate>Wed, 08 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog vom 8. April 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs - Metas neues Modell Muse Spark&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Meta kündigte Muse Spark an, sein erstes Modell-Release seit Llama 4 vor etwa einem Jahr. Das Modell ist gehostet (nicht Open Weights) und wird über meta.ai mit Facebook- oder Instagram-Login angeboten, mit zwei Modi: &quot;Instant&quot; und &quot;Thinking&quot;, sowie einem angekündigten &quot;Contemplating&quot; Mode für längere Reasoning-Prozesse. Laut Metas Benchmarks ist Muse Spark konkurrenzfähig mit Opus 4.6, Gemini 3.1 Pro und GPT 5.4, bleibt aber beim Terminal-Bench 2.0 zurück. Meta selbst räumt Verbesserungspotenzial bei Long-Horizon-Agentensystemen und Coding-Workflows ein.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs - Meta.ai Tools und Fähigkeiten&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon entdeckte, dass Meta.ai Zugriff auf 16 verschiedene Tools hat, darunter Browser-Funktionen (browser.search, browser.open, browser.find), Bild-Generierung (media.image_gen), Meta-Content-Search (für Instagram-, Threads- und Facebook-Posts seit Januar 2025) und Katalog-Suche für Shopping-Funktionen. Interessanterweise offenbart Meta die genauen Tool-Namen und Parameter, was ohne Jailbreaks zu diesen Informationen führt. Die Integration funktioniert ähnlich wie Claude Artifacts, mit SVG- und HTML-Rendering direkt in der Chat-Oberfläche.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI-Ethik und Schreiben&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Giles Turnbull mit einer provokanten Beobachtung: Menschen mögen es, AI-Tools auszuprobieren, um andere Berufe nachzuahmen, aber sie sind deutlich weniger begeistert, wenn andere AI-Tools für ihre eigenen Professionen nutzen. Dieser Punkt hebt die ambivalente Haltung zu AI-Einsatz und deren Auswirkungen auf kreative und wissensbasierte Arbeiten hervor.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything&quot;&gt;Meta&#x27;s new model is Muse Spark, and meta.ai chat has some interesting tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything&quot;&gt;Quoting Giles Turnbull&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 07. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-07</guid>
