@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 09. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-09</guid>
+    <pubDate>Thu, 09 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellte ein Tool zur Überprüfung der GitHub-Repository-Größe vor, das die in der GitHub-UI normalerweise nicht angezeigten Informationen über die CORS-freundliche API abruft. Mit diesem Tool kann man beispielsweise sehen, dass das Datasette-Repository (simonw/datasette) 8,1 MB groß ist. Das Tool bietet eine praktische Lösung für Entwickler, die schnell die Größe von Repositories überprüfen möchten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte asgi-gzip 0.3, eine gzip-Middleware für ASGI-Anwendungen, die ursprünglich aus Starlette extrahiert wurde. Bei der Bereitstellung eines neuen SSE-Features in einer produktiven Datasette-Instanz entdeckte er, dass asgi-gzip fälschlicherweise event/text-stream-Responses komprimierte. Er aktualisierte die Bibliothek mit einem Fix aus Starlette, indem er einen zuvor stillgelegten GitHub Actions-Workflow wieder aktivierte, der Starlette auf Updates überwacht. Nun behandeln sowohl datasette-gzip als auch asgi-gzip text/event-stream-Responses in SSE-Anwendungen korrekt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything&quot;&gt;GitHub Repo Size&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything&quot;&gt;asgi-gzip 0.3&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 08. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-08</guid>
