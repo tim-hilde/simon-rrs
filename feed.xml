@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 10. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-10</guid>
+    <pubDate>Fri, 10 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert die überraschende Tatsache, dass OpenAIs Voice Mode auf einem älteren und schwächeren Modell läuft als das Standard-ChatGPT – ein kontraintuitives Design, da man erwarten würde, dass die beste KI auch das intelligenteste Sprachmodell sein sollte. Die Voice Mode verwendet ein GPT-4o-Ära-Modell mit einer Wissensbasis von April 2024, während OpenAIs höchstes kostenpflichtiges Codex-Modell dagegen beeindruckende Leistungen bei der Code-Refaktorierung und sogar beim Finden von Sicherheitslücken zeigt. Simon verweist auf einen Tweet von Andrej Karpathy, der die wachsende Kluft zwischen verschiedenen KI-Anwendungsbereichen hervorhebt – besonders weil Programmieraufgaben explizite, verifizierbare Belohnungsfunktionen (wie Unit-Tests) bieten, die Reinforcement Learning ermöglichen, während qualitative Aufgaben wie Schreiben viel schwerer zu bewerten sind.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sonstiges&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte einen kurzen Beitrag über Kākāpō-Papageien, basierend auf einem Podcast-Ausschnitt, den sein Kollege Lenny aus einer 100-minütigen Aufnahme extrahiert und geteilt hatte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything&quot;&gt;Kākāpō parrots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything&quot;&gt;ChatGPT voice mode is a weaker model&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 09. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-09</guid>
