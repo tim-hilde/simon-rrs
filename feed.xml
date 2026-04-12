@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 11. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-11</guid>
+    <pubDate>Sat, 11 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;SQLite &amp; Datenbank-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtete über die Veröffentlichung von SQLite 3.53.0, eine bedeutende Version, nachdem 3.52.0 zurückgezogen wurde. Zu den Highlights gehören neue Funktionen wie ALTER TABLE zur Verwaltung von NOT NULL und CHECK Constraints, neue JSON-Funktionen (json_array_insert() und jsonb-Äquivalent) sowie erhebliche Verbesserungen im CLI-Modus durch die neue Query Results Formatter-Bibliothek. Simon erstellte zusätzlich ein WebAssembly-Playground mit Hilfe von Claude Code, um die verschiedenen Rendering-Optionen dieser neuen Formatter-Bibliothek interaktiv zu demonstrieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything&quot;&gt;SQLite 3.53.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything&quot;&gt;SQLite Query Result Formatter Demo&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 10. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-10</guid>
