@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 12. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-12</guid>
+    <pubDate>Sun, 12 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon präsentierte ein praktisches Rezept für die Audio-Transkription mit Gemma 4 E2B und MLX auf macOS. Er nutzte das `uv run`-Tool mit Python 3.13 und mlx_vlm, um eine 14-sekündige Audiodatei zu transkribieren. Das Modell zeigte gute Ergebnisse bei der Spracherkennung, obwohl es kleinere Fehler bei der Interpretation einiger Wörter machte, was Simon humorvoll kommentierte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything&quot;&gt;Gemma 4 audio with MLX&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 11. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-11</guid>
