@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 13. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-13</guid>
+    <pubDate>Mon, 13 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# &lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert eine kontroverse Aussage von Steve Yegge über Googles AI-Adoption, die behauptet, dass Google bei der Nutzung von agentic AI hinter anderen Unternehmen zurückliegt. Yegge beschreibt eine Industrie-Adoption-Kurve mit 20% agentic Power-Usern, 20% Verweigerern und 60% die noch Chat-Tools wie Cursor nutzen. Allerdings widerspricht Addy Osmani von Google dieser Darstellung und betont, dass über 40.000 Google-Softwareentwickler wöchentlich agentic Coding nutzen, zusammen mit internen Tools wie Gemini CLI und MCPs. Zusätzlich warnt Bryan Cantrill vor einem grundlegenden Problem von LLMs: Sie können unbegrenzt Arbeit leisten und neigen daher dazu, Systeme zu vergrößern statt zu verbessern, da ihnen menschliche Faulheit und damit verbundene Optimierungsanreize fehlen.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;Open Source Tools &amp; Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon untersucht die neue `servo` v0.1.0 Crate, ein Rust-basiertes embeddable Browser-Engine, das nun auf crates.io verfügbar ist. Mit Claude Code entwickelte er ein Kommandozeilen-Tool namens `servo-shot`, das URLs oder HTML-Dateien zu PNG-Screenshots rendern kann und gegen stabiles Rust kompiliert. Obwohl eine WebAssembly-Kompilierung von Servo selbst aufgrund von Thread-Nutzung und Abhängigkeiten wie SpiderMonkey nicht praktikabel ist, gelang es Claude, ein WebAssembly-Playground für die `html5ever`- und `markup5ever_rcdom`-Crates zu erstellen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything&quot;&gt;Steve Yegge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything&quot;&gt;Exploring the new `servo` crate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything&quot;&gt;Quoting Bryan Cantrill&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 12. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-12</guid>
