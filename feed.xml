@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 14. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-14</guid>
+    <pubDate>Tue, 14 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Beiträgen vom 14.04.2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Sicherheit&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison hat Pull Request #2689 für Datasette zusammengefasst, der die klassische tokenbasierte CSRF-Schutzproblematik durch Sec-Fetch-Site-Header-basierte Protektion ersetzt. Diese Änderung wurde von der Go-1.25-Implementierung und Filippo Valsordas Sicherheitsforschung inspiriert und mit Unterstützung von Claude Code sowie GPT-5.4 umgesetzt. Die neuen Änderungen entfernen alle versteckten CSRF-Token-Eingabefelder aus Templates, vereinfachen die Plugin-Hooks und aktualisieren die Dokumentation mit Upgrade-Richtlinien.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Cybersecurity – Anthropic vs. OpenAI&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI kündigte GPT-5.4-Cyber an, ein speziell für defensive Cybersecurity-Anwendungsfälle feinabgestimmtes Modell, sowie das Programm &quot;Trusted Access for Cyber&quot; mit verbessertem Zugang nach Identitätsverifizierung. Simon vergleicht diesen Ansatz skeptisch mit Anthropics Project Glasswing und weist auf die fehlende Erwähnung von Anthropic hin, obwohl deren Claude Mythos laut UK AI Safety Institute außergewöhnliche Fähigkeiten bei der Schwachstellenerkennung zeigt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-gestützte Sicherheit und Open Source&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Der Bericht der UK AI Safety Institute zu Claude Mythos zeigt, dass bessere Sicherheitsergebnisse mit höheren Token-Ausgaben korrelieren. Drew Breunig argumentiert, dass dies zu einer wirtschaftlichen Gleichung führt: Systeme müssen mehr Tokens für Schwachstellensuche ausgeben, als Angreifer für Exploits verwenden würden. Ein positives Resultat ist, dass Open-Source-Bibliotheken durch geteilte Token-Investitionen wertvoll werden und damit besser gegen die &quot;Vibe-Coding&quot;-Alternative konkurrieren können.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything&quot;&gt;datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything&quot;&gt;Trusted access for the next era of cyber defense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything&quot;&gt;Cybersecurity Looks Like Proof of Work Now&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 13. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-13</guid>
