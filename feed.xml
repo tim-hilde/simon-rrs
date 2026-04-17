@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 16. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-16</guid>
+    <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Modellveröffentlichungen und Vergleiche&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon testete zwei große Modellveröffentlichungen vom 16. April 2026: Qwen3.6-35B-A3B von Alibaba und Claude Opus 4.7 von Anthropic. In seinem humorvollen „Pelikan-auf-Fahrrad&quot;-Benchmark schnitt die lokale Qwen-Version überraschend besser ab als das proprietäre Claude-Modell, sowohl bei Pelikanen als auch bei Flamingos auf Einrädern. Trotz des spielerischen Charakters des Benchmarks bemerkt Simon, dass die Korrelation zwischen Pelikan-Qualität und allgemeiner Modellnützlichkeit in diesem Fall zusammengebrochen ist – Qwen3.6 mag bessere SVGs zeichnen, ist aber wahrscheinlich nicht das insgesamt leistungsfähigere Modell.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases – llm-anthropic Plugin&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte llm-anthropic 0.25 mit Unterstützung für das neue Claude-Modell Opus 4.7. Das Release bringt neue Features wie die `thinking_display` und `thinking_adaptive` Optionen, um die erweiterten Denkfähigkeiten des Modells zu nutzen, sowie erhöhte Standard-Token-Limits und entfernte veraltete API-Header. Das Plugin ermöglicht nahtlose Integration von Anthropic-Modellen in das llm-CLI-Werkzeug.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools – UI-Verbesserungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon nutzte Claude, um ein Custom-Preview-UI für die news.yaml-Datei der Datasette-Website zu erstellen. Das Tool ermöglicht einfacheres Bearbeiten und Validieren von YAML- und Markdown-Fehlern direkt als interaktives Artifact in Claude, ohne mühsames manuelles Formatieren in der Rohdatei.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything&quot;&gt;llm-anthropic 0.25&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything&quot;&gt;Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything&quot;&gt;datasette.io news preview&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 15. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-15</guid>
