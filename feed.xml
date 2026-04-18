@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 17. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-17</guid>
+    <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; Konferenzen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison kündigte PyCon US 2026 in Long Beach (13.–19. Mai) an und hob hervor, dass die Konferenz erstmals seit 2017 wieder an die Westküste kommt. Besonders erwähnenswert sind zwei neue dedizierte Tracks: ein AI-Track am Freitag unter der Leitung von Silona Bonewald und Zac Hatfield-Dodds, sowie ein Security-Track am Samstag. Simon wird als In-Room-Chair den AI-Track moderieren und präsentiert ein vielfältiges Programm mit Vorträgen zu Themen wie LLM-Quantisierung auf Laptops, Python-basierter Sprachidentifikation für afrikanische Sprachen, Async-Patterns für AI-Agenten und Real-Time Voice Agents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte Datasette 1.0a28, um mehrere kritische Bugs aus der vorherigen Version 1.0a27 zu beheben. Die wichtigsten Verbesserungen umfassen die Korrektur eines Kompatibilitätsproblems mit `execute_write_fn()`-Callbacks, neue `database.close()`- und `datasette.close()`-Methoden für ordnungsgemäße Ressourcenverwaltung sowie ein neues pytest-Plugin für automatische Cleanup-Vorgänge in Tests. Diese Änderungen verhindern das Erschöpfen von File-Deskriptoren in Plugin-Test-Suites und wurden mit Hilfe von Claude Code und Claude Opus 4.7 implementiert.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything&quot;&gt;Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/17/datasette/#atom-everything&quot;&gt;datasette 1.0a28&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 16. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-16</guid>
