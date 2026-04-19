@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 18. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-18</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog vom 18. April 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs: Claude-Systemprompts und deren Entwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon analysierte die Änderungen zwischen Claude Opus 4.6 und 4.7 und dokumentierte, wie Anthropic ihre Systemprompts weiterentwickelt. Mit Hilfe von Claude Code erstellte er eine Git-basierte Timeline der Systemprompts seit Juli 2024, um Änderungen nachzuverfolgbar zu machen. Die neuen Features in Opus 4.7 umfassen erweiterte Child-Safety-Instruktionen in speziellen Tags, neue Tools wie Claude in PowerPoint und Excel sowie Verbesserungen bei der Nutzerinteraktion, beispielsweise dass Claude weniger aufdringlich wird und den Wunsch des Nutzers zu beenden respektiert. Besonders hervorzuheben ist die neue `&lt;acting_vs_clarifying&gt;`-Sektion, die Claude dazu ermutigt, mit verfügbaren Tools Ambiguitäten zu lösen, statt zuerst nachzufragen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Agentic Engineering: Prompt-Engineering für praktische Coding-Aufgaben&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veranschaulichte an seinem Blog-to-Newsletter-Tool ein Beispiel für effektives Prompt-Engineering mit Claude Code, bei dem er eine neue Inhaltsart namens &quot;beats&quot; (Releases, Tools, Museum-Besuche) einbinden wollte. Sein Prompt war bewusst kurz, nutzte aber etablierte Patterns wie das Klonen von GitHub-Repositories zu `/tmp` als Referenz und verwies auf vorhandene Features wie das Atom-Feed-System, um Claude die erforderliche Logik verständlich zu machen. Diese Technik des &quot;Show-by-Example&quot; erspart detaillierte Erklärungen und führte zu einer präzisen Implementierung für sein Substack-Newsletter-Tool.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything&quot;&gt;Changes in the system prompt between Claude Opus 4.6 and 4.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything&quot;&gt;Claude system prompts as a git timeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything&quot;&gt;Adding a new content type to my blog-to-newsletter tool&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 17. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-17</guid>
