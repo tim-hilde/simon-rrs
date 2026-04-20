@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 19. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-19</guid>
+    <pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert die wachsende Bedeutung von &quot;Headless&quot;-Services für persönliche KI-Systeme. Matt Webb argumentiert, dass Nutzer bessere Erfahrungen mit persönlichen KI-Assistenten machen als mit direkter Service-Nutzung, da diese APIs schneller und zuverlässiger nutzen können als GUI-Automation. Salesforce hat dies mit &quot;Salesforce Headless 360&quot; umgesetzt und exponiert seine gesamte Plattform als APIs, MCPs und CLIs für KI-Agenten. Diese Entwicklung könnte traditionelle SaaS-Preismodelle grundlegend verändern und erinnert an die API-Welle der frühen 2010er Jahre.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;APIs &amp; Plattformarchitektur&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Brandur Leach analysiert in &quot;The Second Wave of the API-first Economy&quot; die Renaissance von APIs als entscheidender Wettbewerbsfaktor. APIs werden nicht mehr als Liability betrachtet, sondern als wichtiger Verkaufsvektor, der Nutzern ermöglicht, ihre gekauften Services durch KI-Agenten automatisieren zu lassen. In einem Markt mit wenig differenzierten Produkten könnte die Verfügbarkeit einer hochwertigen API zum entscheidenden Erfolgsfaktor werden und Unternehmen voneinander unterscheiden.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything&quot;&gt;Headless everything for personal AI&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 18. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-18</guid>
