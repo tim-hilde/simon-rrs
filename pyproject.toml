@@ -1,5 +1,5 @@
 [project]
-name = "simon-rrs"
+name = "simon-rss"
 version = "0.1.0"
 description = "Daily digest RSS feed of Simon Willison's blog, summarized by claude-haiku"
 requires-python = ">=3.12"

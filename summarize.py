@@ -34,7 +34,7 @@ ET.register_namespace("", RSS_NS)
 
 def fetch_url(url: str, timeout: int = REQUEST_TIMEOUT) -> str:
     """Fetch URL, return response body as string. Raises on non-200."""
-    req = Request(url, headers={"User-Agent": "simon-rrs/1.0 (daily digest bot)"})
+    req = Request(url, headers={"User-Agent": "simon-rss/1.0 (daily digest bot)"})
     with urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="replace")
 

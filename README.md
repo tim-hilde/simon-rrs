@@ -1,4 +1,4 @@
-# simon-rrs
+# simon-rss
 
 Tägliche Zusammenfassung von [Simon Willisons Blog](https://simonwillison.net/) als RSS-Feed.
 
@@ -10,7 +10,7 @@ Läuft täglich um 06:00 UTC via GitHub Actions, fasst gestrige Posts mit claude
 
 - Fork dieses Repo
 - Settings → Pages → Source: "Deploy from a branch" → Branch: `main`, Folder: `/ (root)`
-- Feed-URL wird: `https://DEIN-USERNAME.github.io/simon-rrs/feed.xml`
+- Feed-URL wird: `https://DEIN-USERNAME.github.io/simon-rss/feed.xml`
 
 ### 2. Anthropic API Key hinterlegen
 
@@ -27,7 +27,7 @@ Läuft täglich um 06:00 UTC via GitHub Actions, fasst gestrige Posts mit claude
 
 Feed-URL in deinen RSS-Reader eintragen:
 ```
-https://DEIN-USERNAME.github.io/simon-rrs/feed.xml
+https://DEIN-USERNAME.github.io/simon-rss/feed.xml
 ```
 
 ## Kosten
