@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 20. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-20</guid>
+    <pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon experimentierte mit Methoden, um Daten aus Datasette direkt in Google Sheets zu importieren. Er dokumentierte drei verschiedene Ansätze: die `importdata()`-Funktion für einfache Anfragen, benannte Funktionen als Wrapper, und Google Apps Script für komplexere Anfragen, die API-Token in HTTP-Headern benötigen. Mit einem Beispiel-Sheet demonstrierte er praktisch, wie diese Muster funktionieren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon aktualisierte sein Claude Token Counter Tool, um Vergleiche zwischen verschiedenen Claude-Modellen zu ermöglichen. Mit Claude Opus 4.7 kam erstmals ein neuer Tokenizer, der Text effizienter verarbeitet, aber gleichzeitig mehr Token benötigt—etwa 1,0–1,35× je nach Inhaltstyp. Simon testete das Tool praktisch und fand heraus, dass Opus 4.7 bei Systemprompts 1,46× mehr Token nutzt als Opus 4.6, was trotz gleicher Preisgestaltung zu etwa 40% höheren Kosten führt. Das Tool unterstützt auch Bildverarbeitung und zeigt, dass Opus 4.7 Bilder bis zu 2.576 Pixel an der längsten Kante verarbeiten kann—mehr als dreimal so viel wie frühere Modelle.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything&quot;&gt;SQL functions in Google Sheets to fetch data from Datasette&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything&quot;&gt;Claude Token Counter, now with model comparisons&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 19. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-19</guid>
