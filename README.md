@@ -26,14 +26,15 @@ Läuft täglich um 06:00 UTC via GitHub Actions, fasst gestrige Posts mit claude
 ### 4. RSS-Reader konfigurieren
 
 Feed-URL in deinen RSS-Reader eintragen:
+
 ```
-https://DEIN-USERNAME.github.io/simon-rss/feed.xml
+https://tim-hilde.github.io/simon-rss/feed.xml
 ```
 
 ## Kosten
 
 - GitHub Actions: kostenlos (Free tier: 2000 min/month, dieser Job braucht ~1 min/Tag)
-- Anthropic claude-haiku: ~$0.001/Tag (~$0.35/Jahr)
+- Anthropic claude-haiku: \~\$0.001/Tag (\~\$0.35/Jahr)
 
 ## Lokaler Test
 
