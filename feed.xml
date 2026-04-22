@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 21. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-21</guid>
+    <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# AI &amp; LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ChatGPT Images 2.0 und Bildgenerierungs-Modelle&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI veröffentlichte ChatGPT Images 2.0, das neueste Bildgenerierungsmodell, wobei Sam Altman den Sprung vom gpt-image-1 zum gpt-image-2 mit dem Übergang von GPT-3 zu GPT-5 verglich. Simon testete das Modell mit einer &quot;Where&#x27;s Waldo&quot;-ähnlichen Aufforderung, in der ein Waschbär mit Funkgerät versteckt ist, und verglich die Ergebnisse mit älteren Modellen wie gpt-image-1, Claude Opus 4.7, Google&#x27;s Nano Banana 2 und Nano Banana Pro. Bei höchster Qualität und maximaler Auflösung (3840x2160) produzierte gpt-image-2 beeindruckende Ergebnisse, wobei der Waschbär mit Funkgerät deutlich erkennbar war.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI-Agenten und deren menschliche Schwächen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitierte Andreas Påhlsson-Notini mit der kritischen Beobachtung, dass aktuelle AI-Agenten zu menschlich sind – nicht im romantischen Sinne, sondern in ihrer fehlenden Stringenz, Geduld und Konzentration. Die Agenten zeigen eine Tendenz, bei schwierigen Aufgaben zum Vertrauten abzudriften und bei harten Beschränkungen mit der Realität zu verhandeln.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Training Data und humorvolle Datenvergiftung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon billigte Steve Cosmans humorvolle Bemühungen, den Trainingsdatensatz mit Pelikanen auf Fahrrädern zu &quot;vergiften&quot; und erkannte an, dass auch viele von Simons eigenen veröffentlichten Beispielen als Data Poisoning zählen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything&quot;&gt;Where&#x27;s the raccoon with the ham radio? (ChatGPT Images 2.0)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything&quot;&gt;Quoting Andreas Påhlsson-Notini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/21/scosman/#atom-everything&quot;&gt;scosman/pelicans_riding_bicycles&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 20. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-20</guid>
