@@ -8,6 +8,16 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 23. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-23</guid>
+    <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI hat GPT-5.5 veröffentlicht, das nun über OpenAI Codex und ChatGPT-Abonnements verfügbar ist. Simon Willison testete das Modell und beschreibt es als schnell, effektiv und hochgradig leistungsfähig, wobei es genau das umsetzt, wofür man es einsetzt. Er nutzte Claude Code, um ein neues Plugin namens `llm-openai-via-codex` zu entwickeln, das es ermöglicht, OpenAI-Modelle über ein bestehendes Codex-Abonnement zu nutzen – ein cleverer Workaround, da die offizielle API noch nicht verfügbar ist.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellte LiteParse for the Web vor, eine Browserversion des LlamaIndex-Projekts LiteParse, das Text aus PDFs extrahiert. Das Tool nutzt clevere Heuristiken zur &quot;Spatial Text Parsing&quot;, um Text in sinnvoller Reihenfolge zu extrahieren, unabhängig von komplexen PDF-Layouts, und fällt auf Tesseract OCR zurück, wenn nötig. Er entwickelte die browserbasierte Version mit Claude Code und Opus 4.7 und veröffentlichte sie unter https://simonw.github.io/liteparse/.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte die erste Alpha-Version von `llm-openai-via-codex 0.1a0, ein Plugin für sein LLM-Tool, das Codex-CLI-Anmeldedaten nutzt, um auf OpenAI-Modelle zuzugreifen. Das Plugin war direkt als Ergebnis seines Experimentierens mit GPT-5.5 entstanden und ermöglicht es Nutzern, ihre bestehenden OpenAI-Abonnements über die LLM-CLI zu nutzen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Interessante Links &amp; Essays&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte ein Zitat von Maggie Appleton über Digital Gardening und &quot;Learning in Public&quot;, in dem sie humorvoll beobachtet, dass das öffentliche Teilen von Lernprozessen Menschen dazu führt, dass sie für kompetenter gehalten werden als sie sind – mit dem angenehmen Nebeneffekt, zu exklusiven und interessanten Events mit hochleistungsfähigen Personen eingeladen zu werden.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything&quot;&gt;Extract PDF text in your browser with LiteParse for the web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything&quot;&gt;A pelican for GPT-5.5 via the semi-official Codex backdoor API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything&quot;&gt;llm-openai-via-codex 0.1a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything&quot;&gt;Quoting Maggie Appleton&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 22. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-22</guid>
