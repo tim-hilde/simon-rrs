@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 25. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-25</guid>
+    <pubDate>Sat, 25 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – GPT-5.5 und OpenAI-Updates&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI hat GPT-5.5 in die API integriert und umfangreiche Promptingrichtlinien veröffentlicht. Romain Huet von OpenAI bestätigte, dass seit GPT-5.4 Codex und das Hauptmodell in einem einzigen System vereinigt sind und kein separates Codex-Modell mehr für GPT-5.5 geplant ist. OpenAI empfiehlt Entwicklern ausdrücklich, GPT-5.5 nicht als Drop-in-Replacement für ältere Modelle zu behandeln, sondern von Grund auf neu zu optimieren – ein interessanter Hinweis darauf, dass frühere Prompts nicht automatisch funktionieren werden.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Text-to-Image und Generative AI – ChatGPT Images 2.0&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon testete ChatGPT Images 2.0 mit seinem bekannten &quot;Pelican Riding a Bicycle&quot;-Benchmark und fand heraus, dass das Modell eigenständig ein &quot;WHY ARE YOU LIKE THIS&quot;-Schild in das generierte Bild einfügte – obwohl dies nicht im Prompt angefordert wurde. Die Aufgabe lautete, ein Pferd zu zeigen, das einen Astronauten reitet, der wiederum auf einem Pelikan sitzt, der auf einem Fahrrad fährt. Das Ergebnis war visuell chaotisch, aber alle Elemente balancierten irgendwie aufeinander.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything&quot;&gt;WHY ARE YOU LIKE THIS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything&quot;&gt;Quoting Romain Huet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything&quot;&gt;GPT-5.5 prompting guide&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 24. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-24</guid>
