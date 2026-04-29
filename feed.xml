@@ -8,6 +8,16 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 28. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-28</guid>
+    <pubDate>Tue, 28 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 28. April 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt einen interessanten Auszug aus OpenAI Codex&#x27; Basis-Instruktionen für GPT-5.5, die enthüllen, dass das Modell angewiesen wurde, nicht über bestimmte Kreaturen wie Kobolde, Gremlins oder Waschbären zu sprechen, es sei denn, dies ist absolut relevant für die Benutzeranfrage. Er zitiert auch Matthew Yglesias&#x27; nachdenkliche Reflexion über &quot;Vibe-Coding&quot; und AI-gestützte Programmierung, wobei Yglesias argumentiert, dass er professionell verwaltete Softwareunternehmen bevorzugt, die KI-Hilfsmittel nutzen, um bessere und günstigere Produkte zu entwickeln.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Local LLMs &amp; Open-Source Modelle&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellt das neue Projekt „talkie&quot; vor, ein 13-Milliarden-Parameter-Sprachmodell von Nick Levine, David Duvenaud und Alec Radford, das auf 260 Milliarden Tokens von englischem Text vor 1931 trainiert wurde. Das Projekt umfasst ein Basis-Modell (talkie-1930-13b-base) und eine Instruction-Tuned-Version (talkie-1930-13b-it), beide unter Apache 2.0-Lizenz verfügbar. Das Projekt erforscht faszinierende Fragen wie die Vorhersagekraft solcher Modelle bei historischen Ereignissen und deren Fähigkeit, eigenständig wissenschaftliche Konzepte oder Python-Code zu generieren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Python-Ökosystem &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet über die neuen Funktionen in pip 26.1, insbesondere Lock-Files und Dependency Cooldowns, die von Richard Si beschrieben wurden. Die neue Version bietet die Möglichkeit, mit `pip lock datasette llm` abhängigkeiten zu sperren und das Dependency-Cooldown-Feature `--uploaded-prior-to P4D` zu nutzen, um ältere Versionen von Paketen zu installieren, um Sicherheitsrisiken zu reduzieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything&quot;&gt;Quoting OpenAI Codex base_instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything&quot;&gt;Quoting Matthew Yglesias&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything&quot;&gt;What&#x27;s new in pip 26.1 - lockfiles and dependency cooldowns!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/28/talkie/#atom-everything&quot;&gt;Introducing talkie: a 13B vintage language model from 1930&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 27. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-27</guid>
