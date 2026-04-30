@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 29. April 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-04-29</guid>
+    <pubDate>Wed, 29 Apr 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Große Umgestaltung der LLM-Bibliothek&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison veröffentlichte LLM 0.32a0, eine grundlegende, aber rückwärtskompatible Überarbeitung seiner LLM-Bibliothek und des CLI-Tools für den Zugriff auf große Sprachmodelle. Die Version führt zwei wesentliche Änderungen ein: Modelleingaben können nun als Nachrichtensequenzen dargestellt werden (statt nur als einfache Text-Prompts), und Modellantworten bestehen aus einem Stream verschiedener Datentypen. Diese Umgestaltung war notwendig, da sich LLMs seit April 2023 drastisch weiterentwickelt haben und nun Bild-, Audio- und Videoeingaben sowie strukturierte JSON-Ausgaben und Tool-Calling unterstützen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases – Bugfixes in LLM 0.32a1&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Kurz nach der Alpha-Veröffentlichung folgte LLM 0.32a1 am selben Tag, das einen kritischen Bug aus 0.32a0 behoben hat. Das Update behob ein Problem, bei dem Gespräche mit Tool-Calling nicht korrekt aus SQLite wiederhergestellt wurden, was Entwickler bei der Persistierung von Konversationen beeinträchtigt hätte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything&quot;&gt;llm 0.32a1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/29/llm/#atom-everything&quot;&gt;LLM 0.32a0  is a major backwards-compatible refactor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything&quot;&gt;llm 0.32a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 28. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-28</guid>
