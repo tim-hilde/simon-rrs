@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 01. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-01</guid>
+    <pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs - Praktische Anwendungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon nutzte Claude Code, um ein Web-Tool für iNaturalist-Beobachtungen zu entwickeln – komplett auf seinem Telefon während eines Campingwochenendes. Das Projekt demonstriert, wie generative KI zur schnellen Prototypentwicklung eingesetzt werden kann, besonders für die Erstellung von HTML-Apps mit Fetch-Funktionalität. Die Verwendung von Claude Code für die JavaScript-Entwicklung zeigt die praktische Integration von LLMs in den Entwicklungsworkflow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte mehrere neue Tools im Zusammenhang mit iNaturalist: `inaturalist-clumper` ist ein Python CLI-Tool, das Beobachtungen nach Zeit (2-Stunden-Fenster) und geografischer Nähe (5km-Radius) gruppiert. Das Repository `simonw/inaturalist-clumps` nutzt Git Scraping, um die Daten automatisch zu aktualisieren und als `clumps.json` zu speichern. Die abschließende `inat-sightings.html`-App ruft diese JSON-Datei über CORS ab und zeigt Beobachtungen mit Thumbnails und Modal-Funktionalität an, inklusive Artenbezeichnungen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything&quot;&gt;iNaturalist Sightings&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 30. April 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-04-30</guid>
