@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 02. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-02</guid>
+    <pubDate>Sat, 02 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon nutzte Claude Code for Web, um eine neue Funktion für sein Blog-System zu entwickeln. Das Tool half ihm dabei, eine Erweiterung seines &quot;beats&quot;-Systems zur Syndikation von externem Content zu schaffen. Die Implementierung zeigt praktische Anwendungen von KI-gestützter Programmierung beim Aufbau von Web-Features.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon integrierte iNaturalist-Fotos in sein Blog-System und machte diese durchsuchbar. Die Wildlife-Fotos werden nun auf der Homepage, in Datums-Archivseiten und in der Site-Suche angezeigt. Er befüllte das System rückwirkend mit über einem Jahrzehnt von iNaturalist-Einträgen, sodass Nutzer beispielsweise seine Lemur-Fotos aus Madagaskar von 2019 finden können.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/2/sightings/#atom-everything&quot;&gt;Sightings&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 01. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-01</guid>
