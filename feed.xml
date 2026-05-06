@@ -8,6 +8,17 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 05. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-05</guid>
+    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte zwei neue Versionen von Datasette-Plugins. Mit datasette-referrer-policy 0.1 löste er ein Problem mit OpenStreetMap-Kacheln auf der global-power-plants Demo, die wegen des standardmäßigen Referrer-Policy Headers nicht angezeigt wurden. Das Plugin erlaubt es, diesen Header flexibel zu konfigurieren, ohne die Standardeinstellungen für alle Benutzer zu ändern. Zusätzlich veröffentlichte er datasette-llm 0.1a7, ein Integrations-Plugin, das es anderen Plugins ermöglicht, LLM-Standardoptionen wie Temperatureinstellungen für spezifische Modelle zu konfigurieren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LLM-Tools &amp; Entwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon gab llm-echo 0.5a0 frei, ein Debug-Plugin für die LLM-CLI, das ein einfaches Echo-Modell zur Verfügung stellt. Das Plugin ist nützlich für automatisierte Tests und verfügt über eine neue `-o thinking 1` Option, um gegen LLM 0.32a0 und höher zu testen, indem es Reasoning-Blöcke simuliert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI-Ethik &amp; kritische Perspektive&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon beschäftigte sich kritisch mit einem Andon-Labs-Experiment, bei dem eine KI-gesteuerte Managerin namens Mona ein Café in Stockholm betreibt. Während das Experiment unterhaltsame Anekdoten liefert (wie die Bestellung von 120 Eiern ohne Herd), kritisiert Simon scharf, dass solche Experimente echte Menschen beeinträchtigen, die nicht zugestimmt haben – von verwirrten Lieferanten bis zur Polizei, die mit fehlerhaften generierten Skizzen belästigt wird. Er argumentiert, dass solche KI-Experimente mit realen Auswirkungen einen Menschen in der Kontrolle benötigen, um schädliche Handlungen zu verhindern.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Interessante Links &amp; Wirtschaft&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitierte John Grubers Bericht, dass Y Combinator etwa 0,6 Prozent von OpenAI besitzt – bei OpenAIs aktuellem Bewertung von 852 Milliarden Dollar eine Investition im Wert von über 5 Milliarden Dollar.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (5 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything&quot;&gt;datasette-referrer-policy 0.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything&quot;&gt;Our AI started a cafe in Stockholm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything&quot;&gt;datasette-llm 0.1a7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/5/llm-echo/#atom-everything&quot;&gt;llm-echo 0.5a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/5/john-gruber/#atom-everything&quot;&gt;Quoting John Gruber&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 04. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-04</guid>
