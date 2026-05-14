@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 13. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-13</guid>
+    <pubDate>Wed, 13 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon kündigte die Einführung eines offiziellen Blogs für das Datasette-Projekt an, da mehrere spannende Ankündigungen geplant sind. Das Blog wurde mit OpenAI Codex desktop gebaut, wobei Simon besonders die Markdown-Session-Transkript-Exportfunktion hervorhob, die er sich schon lange gewünscht hatte. Die gesamte Buildsession ist dokumentiert und verlinkt, was die praktische Anwendung von KI-gestütztem Programmieren demonstriert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte ein Zitat von Boris Mann, das die inflationäre Verwendung des Begriffs &quot;AI agents&quot; kritisiert und ihn mit simplen alltäglichen Aussagen wie &quot;Ich habe 11 Tabellenkalkulationen&quot; vergleicht. Das Zitat hinterfragt die Aussagekraft solcher Phrasen und regt zur Reflexion über die tatsächliche Bedeutung von KI-Agenten an.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sicherheit &amp; Web-Entwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon experimentierte mit Content Security Policy (CSP) in sandboxed iframes und demonstrierte, wie man CSP-Fehler abfangen und an das Parent-Window weitergeben kann. Das System ermöglicht es Benutzern dann, Domains zur Allow-list hinzuzufügen und die Seite neu zu laden. Dieses Experiment wurde mit GPT-5.5 xhigh im Codex desktop-App gebaut und zeigt innovative Sicherheitsansätze für Web-Anwendungen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything&quot;&gt;Welcome to the Datasette blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/13/boris-mann/#atom-everything&quot;&gt;Quoting Boris Mann&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/13/csp-allow/#atom-everything&quot;&gt;CSP Allow-list Experiment&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 12. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-12</guid>
@@ -275,13 +284,6 @@
     <description>&lt;p&gt;# &lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert eine kontroverse Aussage von Steve Yegge über Googles AI-Adoption, die behauptet, dass Google bei der Nutzung von agentic AI hinter anderen Unternehmen zurückliegt. Yegge beschreibt eine Industrie-Adoption-Kurve mit 20% agentic Power-Usern, 20% Verweigerern und 60% die noch Chat-Tools wie Cursor nutzen. Allerdings widerspricht Addy Osmani von Google dieser Darstellung und betont, dass über 40.000 Google-Softwareentwickler wöchentlich agentic Coding nutzen, zusammen mit internen Tools wie Gemini CLI und MCPs. Zusätzlich warnt Bryan Cantrill vor einem grundlegenden Problem von LLMs: Sie können unbegrenzt Arbeit leisten und neigen daher dazu, Systeme zu vergrößern statt zu verbessern, da ihnen menschliche Faulheit und damit verbundene Optimierungsanreize fehlen.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;Open Source Tools &amp; Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon untersucht die neue `servo` v0.1.0 Crate, ein Rust-basiertes embeddable Browser-Engine, das nun auf crates.io verfügbar ist. Mit Claude Code entwickelte er ein Kommandozeilen-Tool namens `servo-shot`, das URLs oder HTML-Dateien zu PNG-Screenshots rendern kann und gegen stabiles Rust kompiliert. Obwohl eine WebAssembly-Kompilierung von Servo selbst aufgrund von Thread-Nutzung und Abhängigkeiten wie SpiderMonkey nicht praktikabel ist, gelang es Claude, ein WebAssembly-Playground für die `html5ever`- und `markup5ever_rcdom`-Crates zu erstellen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything&quot;&gt;Steve Yegge&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything&quot;&gt;Exploring the new `servo` crate&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything&quot;&gt;Quoting Bryan Cantrill&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 12. April 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-04-12</guid>
-    <pubDate>Sun, 12 Apr 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon präsentierte ein praktisches Rezept für die Audio-Transkription mit Gemma 4 E2B und MLX auf macOS. Er nutzte das `uv run`-Tool mit Python 3.13 und mlx_vlm, um eine 14-sekündige Audiodatei zu transkribieren. Das Modell zeigte gute Ergebnisse bei der Spracherkennung, obwohl es kleinere Fehler bei der Interpretation einiger Wörter machte, was Simon humorvoll kommentierte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything&quot;&gt;Gemma 4 audio with MLX&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
