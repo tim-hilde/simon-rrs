@@ -8,6 +8,16 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 15. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-15</guid>
+    <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 15. Mai 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte zwei neue Projektversionen. Das Projekt inaturalist-clumper 0.1 gruppiert iNaturalist-Sichtungen in &quot;Clumps&quot; und ist Teil seiner Infrastruktur zur Veröffentlichung von Naturbeobachtungen auf seinem Blog – es lief bereits mehrere Wochen in Produktion. Parallel dazu gab es ein Alpha-Release des Datasette-Plugins datasette-llm-limits 0.1a0, das es ermöglicht, pro-Nutzer- und globale Ausgabenlimits für LLM-Nutzung in Datasette zu konfigurieren und mit datasette-llm sowie datasette-llm-accountant zusammenarbeitet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs / Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Mit Unterstützung von Claude entwickelte Simon einen QR-Code-Generator-Tool, der URLs und Text in anpassbare QR-Codes umwandelt. Das Werkzeug bietet verschiedene Designstile (Quadrat- und Liquid-Muster), anpassbare Größen, benutzerdefinierte Farben und optionale Rahmen. Generierte QR-Codes können als PNG heruntergeladen oder direkt in die Zwischenablage kopiert werden – praktisch für WiFi-Netzwerk-Verbindungen und andere Anwendungsfälle.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Interessante Beobachtungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Bei einem Vogel-Spaziergang in Los Angeles vor PyCon dokumentierte Simon eine Western Gull und eine Rock Pigeon, wobei die Möwe besonders unterhaltsam war – sie genoss offenbar einen Besuch bei Starbucks in der Gegend.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything&quot;&gt;inaturalist-clumper 0.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything&quot;&gt;Western Gull, Rock Pigeon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything&quot;&gt;QR code generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything&quot;&gt;datasette-llm-limits 0.1a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 14. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-14</guid>
@@ -275,15 +285,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/15/kyle-kingsbury/#atom-everything&quot;&gt;Quoting Kyle Kingsbury&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/15/datasette-ports/#atom-everything&quot;&gt;datasette-ports 0.3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything&quot;&gt;Zig 0.16.0 release notes: &quot;Juicy Main&quot;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 14. April 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-04-14</guid>
-    <pubDate>Tue, 14 Apr 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Beiträgen vom 14.04.2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Sicherheit&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison hat Pull Request #2689 für Datasette zusammengefasst, der die klassische tokenbasierte CSRF-Schutzproblematik durch Sec-Fetch-Site-Header-basierte Protektion ersetzt. Diese Änderung wurde von der Go-1.25-Implementierung und Filippo Valsordas Sicherheitsforschung inspiriert und mit Unterstützung von Claude Code sowie GPT-5.4 umgesetzt. Die neuen Änderungen entfernen alle versteckten CSRF-Token-Eingabefelder aus Templates, vereinfachen die Plugin-Hooks und aktualisieren die Dokumentation mit Upgrade-Richtlinien.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Cybersecurity – Anthropic vs. OpenAI&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI kündigte GPT-5.4-Cyber an, ein speziell für defensive Cybersecurity-Anwendungsfälle feinabgestimmtes Modell, sowie das Programm &quot;Trusted Access for Cyber&quot; mit verbessertem Zugang nach Identitätsverifizierung. Simon vergleicht diesen Ansatz skeptisch mit Anthropics Project Glasswing und weist auf die fehlende Erwähnung von Anthropic hin, obwohl deren Claude Mythos laut UK AI Safety Institute außergewöhnliche Fähigkeiten bei der Schwachstellenerkennung zeigt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-gestützte Sicherheit und Open Source&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Der Bericht der UK AI Safety Institute zu Claude Mythos zeigt, dass bessere Sicherheitsergebnisse mit höheren Token-Ausgaben korrelieren. Drew Breunig argumentiert, dass dies zu einer wirtschaftlichen Gleichung führt: Systeme müssen mehr Tokens für Schwachstellensuche ausgeben, als Angreifer für Exploits verwenden würden. Ein positives Resultat ist, dass Open-Source-Bibliotheken durch geteilte Token-Investitionen wertvoll werden und damit besser gegen die &quot;Vibe-Coding&quot;-Alternative konkurrieren können.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything&quot;&gt;datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything&quot;&gt;Trusted access for the next era of cyber defense&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything&quot;&gt;Cybersecurity Looks Like Proof of Work Now&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
